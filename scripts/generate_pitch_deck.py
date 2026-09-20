@@ -313,7 +313,7 @@ def create_deck(output_pptx_path: str):
     # =========================================================================
     s12 = apply_base_slide("Winning with Snapdragon: Summary & Conclusion")
     add_card(s12, 0.8, 1.8, 11.7, 4.8, "🏆 OmniCognition NPU: The Future of PC Compute is On-Device", 
-             "\n• Technical Excellence (Rank 1 Tie-Breaker):\n  Full integration with Qualcomm AI Hub, QNN Execution Provider (HTP v75), and 45 TOPS Hexagon NPU.\n\n• Innovation & Real-World Utility:\n  Solves privacy, latency, and battery drain simultaneously for HP OmniBook X users.\n\n• Deployment Readiness:\n  Fully functional codebase, interactive UI, reproducible compilation scripts, and unit tests passing 100%.\n\n• Thank You to Qualcomm & HP for pioneering the Edge AI Revolution!\n\nRepository: https://github.com/R0hanG0yal/Snapdragon-OmniCognition\nParticipant: Rohan Goyal (rohangoyal5127@gmail.com)", COLOR_RED)
+             "\n• Technical Excellence (Rank 1 Tie-Breaker):\n  Full integration with Qualcomm AI Hub, QNN Execution Provider (HTP v75), and 45 TOPS Hexagon NPU.\n\n• Innovation & Real-World Utility:\n  Solves privacy, latency, and battery drain simultaneously for HP OmniBook X users.\n\n• Deployment Readiness:\n  Fully functional codebase, interactive UI, reproducible compilation scripts, and unit tests passing 100%.\n\n• Thank You to Qualcomm & HP for pioneering the Edge AI Revolution!\n\nRepository: https://github.com/R0hanG0yal/snapdragon_hack\nParticipant: Rohan Goyal (rohangoyal5127@gmail.com)", COLOR_RED)
 
     # Save presentation
     os.makedirs(os.path.dirname(output_pptx_path), exist_ok=True)
@@ -364,7 +364,7 @@ def generate_pdf_presentation_fallback(pdf_path: str):
         ("Head-to-Head Benchmarks: Hexagon NPU vs The World", "• Whisper Audio STT: 620ms (NPU) vs 4,850ms (CPU) - 7.8x speedup\n• MiniLM Embedding: 3.2ms (NPU) vs 28.5ms (CPU) - 8.9x speedup\n• Phi-3.5 SLM: 52 tok/s (NPU) vs 14 tok/s (CPU) - 3.7x speedup\n• Active Power: 4.2W (NPU) vs 48W (GPU) - 91% energy reduction"),
         ("Business Impact & HP Ecosystem Synergies", "• Unlocks enterprise, healthcare, and defense adoption for HP OmniBook PCs\n• Provides HP with a unique AI selling proposition against Intel/AMD laptops\n• Huge sustainability benefit: 90% reduction in AI compute carbon footprint"),
         ("Product Roadmap: Next-Gen Edge Autonomy", "• Phase 1 (Current): Multimodal audio, RAG, and edge vision working on NPU\n• Phase 2: OS-level agentic automation & cross-application contextual assistance\n• Phase 3: Peer-to-peer encrypted Snapdragon swarm fleet synchronization"),
-        ("Winning with Snapdragon: Summary & Conclusion", "• Technical Excellence: Rank 1 tie-breaker satisfied with real NPU integration\n• Unstoppable Value: Solves real-world privacy, battery, and latency challenges\n• Repository: https://github.com/R0hanG0yal/Snapdragon-OmniCognition\n• Author: Rohan Goyal | Ready for submission on Unstop")
+        ("Winning with Snapdragon: Summary & Conclusion", "• Technical Excellence: Rank 1 tie-breaker satisfied with real NPU integration\n• Unstoppable Value: Solves real-world privacy, battery, and latency challenges\n• Repository: https://github.com/R0hanG0yal/snapdragon_hack\n• Author: Rohan Goyal | Ready for submission on Unstop")
     ]
 
     for title, body in slides_data:

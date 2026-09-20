@@ -9,7 +9,7 @@
 
 > **Submitted for the Snapdragon® AI Lab Build & Present Challenge 2026 (Qualcomm & HP)**  
 > **Author:** Rohan Goyal (`rohangoyal5127@gmail.com`)  
-> **Repository:** [github.com/R0hanG0yal/Snapdragon-OmniCognition](https://github.com/R0hanG0yal/Snapdragon-OmniCognition)
+> **Repository:** [github.com/R0hanG0yal/snapdragon_hack](https://github.com/R0hanG0yal/snapdragon_hack)
 
 ---
 
@@ -131,8 +131,8 @@ Generated scripts for all 4 models are available in [`scripts/qai_hub_jobs/`](sc
 
 ### 1. Installation
 ```bash
-git clone https://github.com/R0hanG0yal/Snapdragon-OmniCognition.git
-cd Snapdragon-OmniCognition
+git clone https://github.com/R0hanG0yal/snapdragon_hack.git
+cd snapdragon_hack
 pip install -r requirements.txt
 ```
 
@@ -161,7 +161,7 @@ Open **`http://127.0.0.1:8080`** in your browser to experience the live Copilot 
 ## 📁 Repository Structure
 
 ```
-Snapdragon-OmniCognition/
+snapdragon_hack/
 ├── main.py                             # Unified CLI entry point & diagnostics
 ├── requirements.txt                    # Python dependencies
 ├── README.md                           # GitHub documentation

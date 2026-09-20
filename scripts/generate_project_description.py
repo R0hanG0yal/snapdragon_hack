@@ -120,7 +120,7 @@ def generate_pdf_proposal(output_path: str):
         [Paragraph("Competition:", meta_label), Paragraph("Snapdragon® AI Lab Build & Present Challenge 2026", meta_val),
          Paragraph("Author:", meta_label), Paragraph("Rohan Goyal (rohangoyal5127@gmail.com)", meta_val)],
         [Paragraph("Host / Sponsor:", meta_label), Paragraph("Qualcomm & HP (India Edition)", meta_val),
-         Paragraph("GitHub Repo:", meta_label), Paragraph("https://github.com/R0hanG0yal/Snapdragon-OmniCognition", meta_val)],
+         Paragraph("GitHub Repo:", meta_label), Paragraph("https://github.com/R0hanG0yal/snapdragon_hack", meta_val)],
         [Paragraph("Target Silicon:", meta_label), Paragraph("Qualcomm Snapdragon X Elite / Hexagon NPU (45 TOPS)", meta_val),
          Paragraph("Target PC:", meta_label), Paragraph("HP OmniBook X / HP OmniBook Ultra", meta_val)]
     ]
@@ -282,7 +282,7 @@ def generate_pdf_proposal(output_path: str):
     story.append(Paragraph("7. Verification & Quick-Start Deployment", h1_style))
     deploy_text = (
         "The complete solution is packaged in a self-contained repository with automated diagnostics and unit tests:<br/>"
-        "1. <b>Clone:</b> <code>git clone https://github.com/R0hanG0yal/Snapdragon-OmniCognition.git</code><br/>"
+        "1. <b>Clone:</b> <code>git clone https://github.com/R0hanG0yal/snapdragon_hack.git</code><br/>"
         "2. <b>Install:</b> <code>pip install -r requirements.txt</code><br/>"
         "3. <b>Run Diagnostics:</b> <code>python main.py --diag</code> (verifies NPU providers & generates compilation scripts)<br/>"
         "4. <b>Run Automated Tests:</b> <code>python -m pytest tests/</code> (100% passing algorithm and telemetry tests)<br/>"

@@ -34,7 +34,7 @@ Consuming just 4.2W active power, OmniCognition achieves a 7.8x speedup over CPU
 
 ### Field 3: GitHub Repository Link * (Max 500 Characters)
 ```text
-https://github.com/R0hanG0yal/Snapdragon-OmniCognition
+https://github.com/R0hanG0yal/snapdragon_hack
 ```
 
 ---
