@@ -90,6 +90,19 @@ def main():
         display_banner()
         console.print(f"[bold green]🚀 Launching OmniCognition NPU Dashboard on http://127.0.0.1:{args.port}[/bold green]")
         console.print("[dim]Press Ctrl+C to stop.[/dim]")
+        
+        import webbrowser
+        import threading
+        import time
+
+        def open_browser():
+            time.sleep(1.5)
+            try:
+                webbrowser.open(f"http://127.0.0.1:{args.port}")
+            except Exception:
+                pass
+
+        threading.Thread(target=open_browser, daemon=True).start()
         start_server(port=args.port)
 
 if __name__ == "__main__":
